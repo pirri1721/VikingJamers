@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: c5028addb84124c49819772acdce6c7d
+guid: f5d31526e425f2049a126b9de1177f45
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Box02
-    100002: //RootNode
-    400000: Box02
-    400002: //RootNode
-    2100000: Box02Mat
-    2300000: Box02
-    3300000: Box02
-    4300000: Box02
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Box02Mat
-    second: {fileID: 2100000, guid: 8264f6ae697c5d74095d1ea8665f8e2b, type: 2}
+    100000: Cylinder002
+    100002: Plane001
+    100004: //RootNode
+    400000: Cylinder002
+    400002: Plane001
+    400004: //RootNode
+    2100000: No Name
+    2300000: Cylinder002
+    2300002: Plane001
+    3300000: Cylinder002
+    3300002: Plane001
+    4300000: Plane001
+    4300002: Cylinder002
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
