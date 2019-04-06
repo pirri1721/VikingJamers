@@ -298,6 +298,12 @@ public class vp_FPWeaponMeleeAttack : vp_Component
 				if (hit.collider != null)
 				{
 
+                    //Debug.Log("HE DADO A: "+hit.collider.name);
+                    if(hit.transform.tag == "Enemy")
+                    {
+
+                    }
+
 					if (WeaponShooter != null)
 					{
 						WeaponShooter.FirePosition = Camera.main.transform.position;
