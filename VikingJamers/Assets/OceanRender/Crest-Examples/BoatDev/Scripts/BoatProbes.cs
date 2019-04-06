@@ -257,6 +257,14 @@ public class BoatProbes : MonoBehaviour, IBoat
         b.Encapsulate(transform.TransformPoint(new Vector3(_localSamplingAABB.xMax, 0f, _localSamplingAABB.yMax)));
         return Rect.MinMaxRect(b.min.x, b.min.z, b.max.x, b.max.z);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.name.Substring(0,6) == "Island")
+        {
+            Debug.Log("Ship hit island");
+        }
+    }
 }
 
 [Serializable]
