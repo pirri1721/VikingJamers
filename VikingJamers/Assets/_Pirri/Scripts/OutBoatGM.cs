@@ -7,10 +7,17 @@ public class OutBoatGM : MonoBehaviour
     public GameObject[] islands;
     public GameObject enemyShip;
 
+    public GameObject[] shipSkin;
+
     // Start is called before the first frame update
     void Start()
     {
         enemyShip.SetActive(false);
+
+        for(int i=0; i < shipSkin.Length; i++)
+        {
+            shipSkin[i].SetActive(false);
+        }
 
         for (int i=0; i< islands.Length; i++)
         {
@@ -24,6 +31,7 @@ public class OutBoatGM : MonoBehaviour
         {
             Debug.Log("Launch Event");
             enemyShip.SetActive(true);
+            shipSkin[PlayerPrefs.GetInt("level")].SetActive(true);
         }
     }
 }
