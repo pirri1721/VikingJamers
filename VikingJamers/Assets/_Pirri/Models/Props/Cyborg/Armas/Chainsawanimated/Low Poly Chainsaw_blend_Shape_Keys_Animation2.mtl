@@ -1,0 +1,58 @@
+# Blender MTL File: 'Low Poly Chainsaw_blend_Shape_Keys_Animation2.blend'
+# Material Count: 4
+
+newmtl Material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump  textures\\chainsaw_low_Nor_2.jpg
+map_Kd  textures\\end col.jpg
+map_Ks  textures\\dirt_DH.jpg
+refl  C:\\Users\\DH\\2\\Desktop\\Low chainsaw_done\\textures\\ref.jpg
+
+newmtl Material.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump  textures\\chainsaw_low_Nor_2.jpg
+map_Kd  textures\\end col.jpg
+map_Ks  textures\\dirt_DH.jpg
+refl  C:\\Users\\DH\\2\\Desktop\\Low chainsaw_done\\textures\\ref.jpg
+
+newmtl Material.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.094595 0.094595 0.094595
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump  textures\\chainsaw_low_Nor_2.jpg
+map_Kd  textures\\end col.jpg
+map_Ks  textures\\dirt_DH.jpg
+refl  C:\\Users\\DH\\2\\Desktop\\Low chainsaw_done\\textures\\ref.jpg
+
+newmtl saw
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump  textures\\chainsaw_low_Nor_2.jpg
+map_Kd  textures\\end col.jpg
+map_Ks  textures\\dirt_DH.jpg
+refl  C:\\Users\\DH\\2\\Desktop\\Low chainsaw_done\\textures\\ref.jpg

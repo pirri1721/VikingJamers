@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 058dfa06eeef9a34194ad01775cbd0a2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Cube
+    100004: gerobak
+    100006: header.l
+    100008: header.r
+    100010: header_back
+    100012: main_handle
+    100014: Plane
+    100016: roda_belakang
+    100018: roda_depan_kanan_kiri
+    100020: roda_depan_kiri
+    100022: rotor.l
+    100024: rotor.l_end
+    100026: rotor.r
+    100028: rotor.r_end
+    100030: rotor_back
+    100032: rotor_back_end
+    100034: //RootNode
+    100036: Tanah
+    100038: Tembok
+    100040: turner.l
+    100042: turner.r
+    100044: turner_back
+    400000: Armature
+    400002: Cube
+    400004: gerobak
+    400006: header.l
+    400008: header.r
+    400010: header_back
+    400012: main_handle
+    400014: Plane
+    400016: roda_belakang
+    400018: roda_depan_kanan_kiri
+    400020: roda_depan_kiri
+    400022: rotor.l
+    400024: rotor.l_end
+    400026: rotor.r
+    400028: rotor.r_end
+    400030: rotor_back
+    400032: rotor_back_end
+    400034: //RootNode
+    400036: Tanah
+    400038: Tembok
+    400040: turner.l
+    400042: turner.r
+    400044: turner_back
+    2100000: col_ban_gerobak
+    2100002: col_black_kusen
+    2100004: tex_atap
+    2100006: uv_tex_wood_2
+    2100008: col_master_gerobak
+    2100010: uv_tex_wood
+    2100012: uv_texture_bulengan
+    2100014: uv_tex_gold
+    2100016: col_transparant
+    2100018: col_transparant_2
+    2100020: col_text
+    2100022: uv_ban_gerobak
+    2100024: uv_tex_pejalan_kaki
+    2100026: uv_tanah
+    2100028: col_uv_tex_bata
+    2100030: col_uv_poster
+    2300000: Cube
+    2300002: gerobak
+    2300004: Plane
+    2300006: roda_belakang
+    2300008: roda_depan_kanan_kiri
+    2300010: roda_depan_kiri
+    2300012: Tanah
+    2300014: Tembok
+    3300000: Cube
+    3300002: gerobak
+    3300004: Plane
+    3300006: roda_belakang
+    3300008: roda_depan_kanan_kiri
+    3300010: roda_depan_kiri
+    3300012: Tanah
+    3300014: Tembok
+    4300000: gerobak
+    4300002: roda_depan_kiri
+    4300004: roda_belakang
+    4300006: roda_depan_kanan_kiri
+    4300008: Cube
+    4300010: Plane
+    4300012: Tanah
+    4300014: Tembok
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

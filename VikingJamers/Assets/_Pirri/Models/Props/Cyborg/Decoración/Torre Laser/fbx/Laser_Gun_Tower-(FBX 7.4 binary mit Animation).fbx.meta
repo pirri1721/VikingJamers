@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: 8d971c7eace8a844da8c445f78377b4e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Circle.002
+    100002: Cube.001
+    100004: Cube.003
+    100006: Cube.005
+    100008: Cube.007
+    100010: Hemi
+    100012: Laser Gun Tower
+    100014: Laser Gun Tower.001
+    100016: Laser Gun Tower.002
+    100018: Laser Gun Tower.003
+    100020: Laser Gun Tower.004
+    100022: Laser Gun Tower.005
+    100024: //RootNode
+    100026: Sun
+    400000: Circle.002
+    400002: Cube.001
+    400004: Cube.003
+    400006: Cube.005
+    400008: Cube.007
+    400010: Hemi
+    400012: Laser Gun Tower
+    400014: Laser Gun Tower.001
+    400016: Laser Gun Tower.002
+    400018: Laser Gun Tower.003
+    400020: Laser Gun Tower.004
+    400022: Laser Gun Tower.005
+    400024: //RootNode
+    400026: Sun
+    2100000: UVMap.004
+    2100002: Red
+    2300000: Circle.002
+    2300002: Cube.001
+    2300004: Cube.003
+    2300006: Cube.005
+    2300008: Cube.007
+    2300010: Laser Gun Tower
+    2300012: Laser Gun Tower.001
+    2300014: Laser Gun Tower.002
+    2300016: Laser Gun Tower.003
+    2300018: Laser Gun Tower.004
+    2300020: Laser Gun Tower.005
+    3300000: Circle.002
+    3300002: Cube.001
+    3300004: Cube.003
+    3300006: Cube.005
+    3300008: Cube.007
+    3300010: Laser Gun Tower
+    3300012: Laser Gun Tower.001
+    3300014: Laser Gun Tower.002
+    3300016: Laser Gun Tower.003
+    3300018: Laser Gun Tower.004
+    3300020: Laser Gun Tower.005
+    4300000: Laser Gun Tower
+    4300002: Laser Gun Tower.001
+    4300004: Circle.002
+    4300006: Laser Gun Tower.002
+    4300008: Cube.007
+    4300010: Laser Gun Tower.005
+    4300012: Laser Gun Tower.004
+    4300014: Laser Gun Tower.003
+    7400000: Laser Gun Tower.001|Circle.015Action
+    7400002: Laser Gun Tower.001|Circle.019Action
+    7400004: Laser Gun Tower.001|Cube.010Action.001
+    7400006: Laser Gun Tower.001|Cube.010Action.007
+    7400008: Laser Gun Tower.001|Cube.010Action.008
+    7400010: Laser Gun Tower.001|Cube.010Action.009
+    7400012: Laser Gun Tower.001|Cube.011Action.001
+    7400014: Laser Gun Tower.001|Cube.011Action.005
+    7400016: Laser Gun Tower.001|Cube.011Action.006
+    7400018: Laser Gun Tower.001|Cube.011Action.007
+    7400020: Laser Gun Tower.001|Fire
+    7400022: Circle.002|Circle.015Action
+    7400024: Circle.002|Circle.019Action
+    7400026: Circle.002|Cube.010Action.001
+    7400028: Circle.002|Cube.010Action.007
+    7400030: Circle.002|Cube.010Action.008
+    7400032: Circle.002|Cube.010Action.009
+    7400034: Circle.002|Cube.011Action.001
+    7400036: Circle.002|Cube.011Action.005
+    7400038: Circle.002|Cube.011Action.006
+    7400040: Circle.002|Cube.011Action.007
+    7400042: Circle.002|Fire
+    7400044: Laser Gun Tower.002|Circle.015Action
+    7400046: Laser Gun Tower.002|Circle.019Action
+    7400048: Laser Gun Tower.002|Cube.010Action.001
+    7400050: Laser Gun Tower.002|Cube.010Action.007
+    7400052: Laser Gun Tower.002|Cube.010Action.008
+    7400054: Laser Gun Tower.002|Cube.010Action.009
+    7400056: Laser Gun Tower.002|Cube.011Action.001
+    7400058: Laser Gun Tower.002|Cube.011Action.005
+    7400060: Laser Gun Tower.002|Cube.011Action.006
+    7400062: Laser Gun Tower.002|Cube.011Action.007
+    7400064: Laser Gun Tower.002|Fire
+    7400066: Cube.007|Circle.015Action
+    7400068: Cube.007|Circle.019Action
+    7400070: Cube.007|Cube.010Action.001
+    7400072: Cube.007|Cube.010Action.007
+    7400074: Cube.007|Cube.010Action.008
+    7400076: Cube.007|Cube.010Action.009
+    7400078: Cube.007|Cube.011Action.001
+    7400080: Cube.007|Cube.011Action.005
+    7400082: Cube.007|Cube.011Action.006
+    7400084: Cube.007|Cube.011Action.007
+    7400086: Cube.007|Fire
+    7400088: Laser Gun Tower.005|Circle.015Action
+    7400090: Laser Gun Tower.005|Circle.019Action
+    7400092: Laser Gun Tower.005|Cube.010Action.001
+    7400094: Laser Gun Tower.005|Cube.010Action.007
+    7400096: Laser Gun Tower.005|Cube.010Action.008
+    7400098: Laser Gun Tower.005|Cube.010Action.009
+    7400100: Laser Gun Tower.005|Cube.011Action.001
+    7400102: Laser Gun Tower.005|Cube.011Action.005
+    7400104: Laser Gun Tower.005|Cube.011Action.006
+    7400106: Laser Gun Tower.005|Cube.011Action.007
+    7400108: Laser Gun Tower.005|Fire
+    7400110: Cube.005|Circle.015Action
+    7400112: Cube.005|Circle.019Action
+    7400114: Cube.005|Cube.010Action.001
+    7400116: Cube.005|Cube.010Action.007
+    7400118: Cube.005|Cube.010Action.008
+    7400120: Cube.005|Cube.010Action.009
+    7400122: Cube.005|Cube.011Action.001
+    7400124: Cube.005|Cube.011Action.005
+    7400126: Cube.005|Cube.011Action.006
+    7400128: Cube.005|Cube.011Action.007
+    7400130: Cube.005|Fire
+    7400132: Laser Gun Tower.004|Circle.015Action
+    7400134: Laser Gun Tower.004|Circle.019Action
+    7400136: Laser Gun Tower.004|Cube.010Action.001
+    7400138: Laser Gun Tower.004|Cube.010Action.007
+    7400140: Laser Gun Tower.004|Cube.010Action.008
+    7400142: Laser Gun Tower.004|Cube.010Action.009
+    7400144: Laser Gun Tower.004|Cube.011Action.001
+    7400146: Laser Gun Tower.004|Cube.011Action.005
+    7400148: Laser Gun Tower.004|Cube.011Action.006
+    7400150: Laser Gun Tower.004|Cube.011Action.007
+    7400152: Laser Gun Tower.004|Fire
+    7400154: Cube.003|Circle.015Action
+    7400156: Cube.003|Circle.019Action
+    7400158: Cube.003|Cube.010Action.001
+    7400160: Cube.003|Cube.010Action.007
+    7400162: Cube.003|Cube.010Action.008
+    7400164: Cube.003|Cube.010Action.009
+    7400166: Cube.003|Cube.011Action.001
+    7400168: Cube.003|Cube.011Action.005
+    7400170: Cube.003|Cube.011Action.006
+    7400172: Cube.003|Cube.011Action.007
+    7400174: Cube.003|Fire
+    7400176: Laser Gun Tower.003|Circle.015Action
+    7400178: Laser Gun Tower.003|Circle.019Action
+    7400180: Laser Gun Tower.003|Cube.010Action.001
+    7400182: Laser Gun Tower.003|Cube.010Action.007
+    7400184: Laser Gun Tower.003|Cube.010Action.008
+    7400186: Laser Gun Tower.003|Cube.010Action.009
+    7400188: Laser Gun Tower.003|Cube.011Action.001
+    7400190: Laser Gun Tower.003|Cube.011Action.005
+    7400192: Laser Gun Tower.003|Cube.011Action.006
+    7400194: Laser Gun Tower.003|Cube.011Action.007
+    7400196: Laser Gun Tower.003|Fire
+    7400198: Cube.001|Circle.015Action
+    7400200: Cube.001|Circle.019Action
+    7400202: Cube.001|Cube.010Action.001
+    7400204: Cube.001|Cube.010Action.007
+    7400206: Cube.001|Cube.010Action.008
+    7400208: Cube.001|Cube.010Action.009
+    7400210: Cube.001|Cube.011Action.001
+    7400212: Cube.001|Cube.011Action.005
+    7400214: Cube.001|Cube.011Action.006
+    7400216: Cube.001|Cube.011Action.007
+    7400218: Cube.001|Fire
+    9500000: //RootNode
+    10800000: Hemi
+    10800002: Sun
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
