@@ -6,6 +6,8 @@ public class PlayerVikingo : MonoBehaviour
 {
     public GameObject canvasGameOver;
     public int vidas = 5;
+
+    public int enemigosRestantes;
     private float timer, cooldownTime = 5;
 
     void Awake()
@@ -97,5 +99,15 @@ public class PlayerVikingo : MonoBehaviour
             }
         if(vidas < 5)
             vidas++;
+    }
+
+    public void UpdateEnemigos(int n)
+    {
+        enemigosRestantes += n;
+
+        if(enemigosRestantes == 0)
+        {
+            Debug.Log("Oleada completada");
+        }
     }
 }

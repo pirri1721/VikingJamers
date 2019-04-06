@@ -13,6 +13,11 @@ public class EnemiesSpawner : MonoBehaviour
     float timer = 0.0f;
     float cooldownTime = 8f;
 
+    void Start()
+    {
+        FindObjectOfType<PlayerVikingo>().UpdateEnemigos(numEnemies);
+    }
+
     void Update()
     {
         if (!stop)

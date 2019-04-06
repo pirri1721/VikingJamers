@@ -28,6 +28,8 @@
 
 using UnityEngine;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEngine.AI;
 
 public class vp_FPWeaponMeleeAttack : vp_Component
 {
@@ -302,7 +304,17 @@ public class vp_FPWeaponMeleeAttack : vp_Component
                     if(hit.transform.tag == "Enemy")
                     {
                         //Debug.Log("Enemigo eliminado");
-                        hit.transform.gameObject.SetActive(false);
+                        if(hit.transform.gameObject.GetComponent<Animator>().parameters.Any(x => x.name == "death"))
+                        {
+                            hit.transform.gameObject.GetComponent<Animator>().SetTrigger("death");
+                            hit.transform.gameObject.GetComponent<NavMeshAgent>().isStopped = true;
+                        }
+
+                        else
+                            hit.transform.gameObject.SetActive(false);
+
+                        hit.transform.tag = "EnemyDeath";
+                        FindObjectOfType<PlayerVikingo>().UpdateEnemigos(-1);
                     }
 
 					if (WeaponShooter != null)
