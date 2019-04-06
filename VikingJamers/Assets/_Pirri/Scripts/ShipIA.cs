@@ -37,7 +37,7 @@ public class ShipIA : MonoBehaviour
             currentTarget = targetLeft;
         }
 
-        if(Vector3.Distance(transform.position,currentTarget.transform.position) > 8f && firstTime)
+        if(Vector3.Distance(transform.position,currentTarget.transform.position) > 10f && firstTime)
         {
             transform.LookAt(currentTarget.transform, transform.up);
         }
@@ -48,8 +48,8 @@ public class ShipIA : MonoBehaviour
                 Debug.Log("Assault");
                 glove.SetActive(true);
 
-                Tween cameraShake = DOTween.To(() => Time.timeScale, x => Time.timeScale = x, 0.25f, 0.25f);
-                cameraShake.Play();
+                Tween timeTween = DOTween.To(() => Time.timeScale, x => Time.timeScale = x, 0.5f, 0.2f);
+                timeTween.Play();
 
                 //Sequence sequence = DOTween.Sequence();
                 Tween gloveT = glove.transform.DOMove(currentTarget.transform.parent.transform.position, 0.5f);
@@ -66,7 +66,10 @@ public class ShipIA : MonoBehaviour
     {
         glove.transform.SetParent(targetRight.transform.parent);
 
-        targetRight.transform.parent.GetChild(0).SetParent(this.transform);
+        Transform playerShipModel = targetRight.transform.parent.GetChild(0);
+
+        playerShipModel.SetParent(this.transform);
+        playerShipModel.transform.localPosition = new Vector3(-25.4f, 5.35f, 2f);
 
         targetRight.transform.parent.gameObject.SetActive(false);
 
@@ -87,7 +90,15 @@ public class ShipIA : MonoBehaviour
             }
         }
 
-        Tween cameraShake = Camera.main.transform.DOShakePosition(0.5f, 1, 10, 90);
+        Tween cameraShake = Camera.main.transform.DOShakePosition(0.5f, 10, 10, 180);
+
+        TweenCallback callback = new TweenCallback(() => CameraCallback());
+        cameraShake.OnComplete(callback);
         cameraShake.Play();
+    }
+
+    public void CameraCallback()
+    {
+        Camera.main.GetComponent<CameraShipController>().EnteringEvent();
     }
 }
