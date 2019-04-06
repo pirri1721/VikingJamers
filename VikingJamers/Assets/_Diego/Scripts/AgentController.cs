@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using System.Linq;
 
 public class AgentController : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class AgentController : MonoBehaviour
     {
        target = GameObject.FindGameObjectWithTag("Player").transform;
        agent = this.GetComponent<NavMeshAgent>();
-       agent.SetDestination(target.position);
+      // agent.SetDestination(target.position);
     }
 
     void Update()
@@ -29,6 +30,8 @@ public class AgentController : MonoBehaviour
             agent.gameObject.GetComponent<Animator>().SetFloat("Speed", 0.0f);
             if (timer > cooldownTime)
             {
+                if (agent.gameObject.GetComponent<Animator>().parameters.Any(x => x.name == "attack1"))
+                    agent.gameObject.GetComponent<Animator>().SetTrigger("attack1");
                 FindObjectOfType<PlayerVikingo>().Attacked();
                 timer = 0;
             }
