@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 3cc4167bcca280046b3b9569d647209a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Circle_002
+    100002: Cube_001
+    100004: Cube_003
+    100006: Cube_005
+    100008: Cube_007
+    100010: Hemi
+    100012: Laser_Gun_Tower
+    100014: //RootNode
+    100016: Laser_Gun_Tower_001
+    100018: Laser_Gun_Tower_002
+    100020: Laser_Gun_Tower_003
+    100022: Laser_Gun_Tower_004
+    100024: Laser_Gun_Tower_005
+    100026: Sun
+    400000: Circle_002
+    400002: Cube_001
+    400004: Cube_003
+    400006: Cube_005
+    400008: Cube_007
+    400010: Hemi
+    400012: Laser_Gun_Tower
+    400014: //RootNode
+    400016: Laser_Gun_Tower_001
+    400018: Laser_Gun_Tower_002
+    400020: Laser_Gun_Tower_003
+    400022: Laser_Gun_Tower_004
+    400024: Laser_Gun_Tower_005
+    400026: Sun
+    2100000: UVMap_004__Laser_Gun_Tower_rough_jpg
+    2100002: UVMap_004
+    2100004: Red
+    2300000: Circle_002
+    2300002: Cube_001
+    2300004: Cube_003
+    2300006: Cube_005
+    2300008: Cube_007
+    2300010: Laser_Gun_Tower
+    2300012: Laser_Gun_Tower_001
+    2300014: Laser_Gun_Tower_002
+    2300016: Laser_Gun_Tower_003
+    2300018: Laser_Gun_Tower_004
+    2300020: Laser_Gun_Tower_005
+    3300000: Circle_002
+    3300002: Cube_001
+    3300004: Cube_003
+    3300006: Cube_005
+    3300008: Cube_007
+    3300010: Laser_Gun_Tower
+    3300012: Laser_Gun_Tower_001
+    3300014: Laser_Gun_Tower_002
+    3300016: Laser_Gun_Tower_003
+    3300018: Laser_Gun_Tower_004
+    3300020: Laser_Gun_Tower_005
+    4300000: Laser_Gun_Tower
+    4300002: Laser_Gun_Tower_001
+    4300004: Circle_002
+    4300006: Laser_Gun_Tower_002
+    4300008: Cube_007
+    4300010: Laser_Gun_Tower_005
+    4300012: Cube_005
+    4300014: Laser_Gun_Tower_004
+    4300016: Cube_003
+    4300018: Laser_Gun_Tower_003
+    4300020: Cube_001
+    7400000: Default Take
+    9500000: //RootNode
+    10800000: Hemi
+    10800002: Sun
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
