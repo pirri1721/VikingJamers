@@ -78,7 +78,7 @@ public class ShipIA : MonoBehaviour
         Transform playerShipModel = targetRight.transform.parent.GetChild(0);
 
         playerShipModel.SetParent(this.transform);
-        playerShipModel.transform.localPosition = new Vector3(-25.4f, 5.35f, 2f);
+        playerShipModel.transform.localPosition = new Vector3(-12.4f, 4.35f, -1f);
         playerShipModel.transform.rotation = Quaternion.Euler(-90, 0, 90);
 
         targetRight.transform.parent.gameObject.SetActive(false);
@@ -110,8 +110,9 @@ public class ShipIA : MonoBehaviour
 
     public void CameraCallback()
     {
-        board1.transform.DORotateQuaternion(Quaternion.Euler(0, 0, 77f), 1f);
-        board2.transform.DORotateQuaternion(Quaternion.Euler(0, 0, 77f), 1f);
+        board1.transform.DORotateQuaternion(Quaternion.Euler(0, 0, -103f), 1f).Play();
+        //board1.transform.DOLocalRotate(new Vector3(0, 0, -103f), 1f).Play();
+        board2.transform.DORotateQuaternion(Quaternion.Euler(0, 0, -103f), 1f).Play();
 
         Camera.main.GetComponent<CameraShipController>().EnteringEvent();
     }

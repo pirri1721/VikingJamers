@@ -39,6 +39,8 @@ public class CameraShipController : MonoBehaviour
     {
         entering = true;
 
+        //targetEntering.transform.DOMove(targetEntering.transform.position + targetEntering.transform.parent.parent.transform.position - targetEntering.transform.parent.transform.position, 1f).Play();
+
         Tween enteringTween = transform.DOMove(sternPoint.transform.position,timeTravelling).Play();
         TweenCallback callback = new TweenCallback(() => AsyncLoad());
         enteringTween.OnComplete(callback);
