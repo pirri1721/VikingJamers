@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class CameraShipController : MonoBehaviour
 {
@@ -59,6 +60,7 @@ public class CameraShipController : MonoBehaviour
             Time.timeScale = 1f;
             transform.SetParent(targetEntering.transform.parent);
             Debug.Log("ChangeScene");
+            SceneManager.LoadSceneAsync(2);
         }
     }
 }

@@ -47,7 +47,7 @@ public class ShipIA : MonoBehaviour
         if(Vector3.Distance(transform.position,currentTarget.transform.position) > rangeToShot && firstTime)
         {
             Debug.DrawLine(transform.position, transform.up);
-            Debug.Log(Vector3.Distance(transform.position, currentTarget.transform.position));
+           // Debug.Log(Vector3.Distance(transform.position, currentTarget.transform.position));
             transform.LookAt(currentTarget.transform, transform.up);
         }
         else

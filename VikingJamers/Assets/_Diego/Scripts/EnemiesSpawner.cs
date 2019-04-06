@@ -23,7 +23,7 @@ public class EnemiesSpawner : MonoBehaviour
                 enemiesOut++;
                 timer = 0;
                 cooldownTime = Random.Range(8.0f, 15.0f);
-                Debug.Log("Saco enemigo");
+               // Debug.Log("Saco enemigo");
             }
 
             if (timer < cooldownTime + 1)

@@ -72,7 +72,7 @@ public class PlayerVikingo : MonoBehaviour
 
     void RecuperoVida()
     {
-        Debug.Log("recupero vida");
+        //Debug.Log("recupero vida");
 
             switch (vidas)
             {
