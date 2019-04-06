@@ -301,7 +301,8 @@ public class vp_FPWeaponMeleeAttack : vp_Component
                     //Debug.Log("HE DADO A: "+hit.collider.name);
                     if(hit.transform.tag == "Enemy")
                     {
-
+                        //Debug.Log("Enemigo eliminado");
+                        hit.transform.gameObject.SetActive(false);
                     }
 
 					if (WeaponShooter != null)

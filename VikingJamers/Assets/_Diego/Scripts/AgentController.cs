@@ -14,6 +14,7 @@ public class AgentController : MonoBehaviour
 
     void Awake()
     {
+       target = GameObject.FindGameObjectWithTag("Player").transform;
        agent = this.GetComponent<NavMeshAgent>();
        agent.SetDestination(target.position);
     }
@@ -37,7 +38,4 @@ public class AgentController : MonoBehaviour
             timer += Time.deltaTime;
 
     }
-
-
-
 }
