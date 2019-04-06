@@ -312,6 +312,9 @@ public class vp_FPWeaponMeleeAttack : vp_Component
 
                         else
                             hit.transform.gameObject.SetActive(false);
+
+                        hit.transform.tag = "EnemyDeath";
+                        FindObjectOfType<PlayerVikingo>().UpdateEnemigos(-1);
                     }
 
 					if (WeaponShooter != null)

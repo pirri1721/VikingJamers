@@ -32,7 +32,10 @@ public class AgentController : MonoBehaviour
             {
                 if (agent.gameObject.GetComponent<Animator>().parameters.Any(x => x.name == "attack1"))
                     agent.gameObject.GetComponent<Animator>().SetTrigger("attack1");
-                FindObjectOfType<PlayerVikingo>().Attacked();
+
+                if(agent.gameObject.tag != "EnemyDeath")
+                    FindObjectOfType<PlayerVikingo>().Attacked();
+
                 timer = 0;
             }
         }
