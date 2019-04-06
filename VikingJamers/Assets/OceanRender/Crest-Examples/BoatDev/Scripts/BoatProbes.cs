@@ -16,7 +16,7 @@ public class BoatProbes : MonoBehaviour, IBoat
     [Tooltip("Override RB center of mass, in local space."), SerializeField]
     Vector3 _centerOfMass = Vector3.zero;
     [SerializeField, FormerlySerializedAs("ForcePoints")]
-    FloaterForcePoints[] _forcePoints = new FloaterForcePoints[] {};
+    public FloaterForcePoints[] _forcePoints = new FloaterForcePoints[] {};
     [SerializeField]
     float _forceHeightOffset = 0f;
     [SerializeField]
