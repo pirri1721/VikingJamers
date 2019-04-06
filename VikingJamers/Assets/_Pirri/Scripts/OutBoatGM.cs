@@ -23,12 +23,7 @@ public class OutBoatGM : MonoBehaviour
         if(other.gameObject.name == "Player")
         {
             Debug.Log("Launch Event");
+            enemyShip.SetActive(true);
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
