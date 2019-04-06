@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: 31dbaefafd153b74eb4b98f2390268b2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: cw_O_eye_L_0
+    100002: cw_O_eye_R_0
+    100004: cw_O_eyehikari_0
+    100006: cw_O_eyekage_0
+    100008: cw_O_face_0
+    100010: cw_O_ha_0
+    100012: cw_O_hairbase_0
+    100014: cw_O_matuge_0
+    100016: cw_O_mayuge_0
+    100018: cw_O_sita_0
+    100020: //RootNode
+    100022: O_hair_back_kana_ver00_00_0
+    100024: O_hair_back_kana_ver00_00_1
+    100026: O_hair_back_kana_ver00_00_2
+    100028: O_hair_back_kana_ver00_01_0
+    100030: O_hair_back_kana_ver00_01_1
+    100032: O_hair_back_kana_ver00_01_2
+    100034: O_hair_back_kana_ver01_00_0
+    100036: O_hair_back_kana_ver01_00_1
+    100038: O_hair_front_kana_ver00_00_0
+    100040: O_hair_front_kana_ver00_01_0
+    100042: O_hair_kiwa_kana_ver00_00_0
+    100044: P_buraN_d_0
+    100046: P_kmnpb_0
+    100048: P_kutuR_00_d_0
+    100050: P_ribonS_00_d_0
+    100052: P_skirtp_00_d_0
+    100054: P_skirtp_00_d_u_0
+    100056: P_soxH_00_0
+    100058: P_ssbotan_00_d_0
+    100060: P_ssyatu_00_d_0
+    100062: P_ssyatu_00_d_u_0
+    100064: P_wbody_00_00_0
+    100066: P_wbody_00_00_1
+    100068: P_wbody_00_00_2
+    100070: P_wbody_00_00_3
+    100072: P_wbody_00_00_4
+    100074: P_wbody_00_00_5
+    100076: P_wbody_00_00_6
+    400000: cw_O_eye_L_0
+    400002: cw_O_eye_R_0
+    400004: cw_O_eyehikari_0
+    400006: cw_O_eyekage_0
+    400008: cw_O_face_0
+    400010: cw_O_ha_0
+    400012: cw_O_hairbase_0
+    400014: cw_O_matuge_0
+    400016: cw_O_mayuge_0
+    400018: cw_O_sita_0
+    400020: //RootNode
+    400022: O_hair_back_kana_ver00_00_0
+    400024: O_hair_back_kana_ver00_00_1
+    400026: O_hair_back_kana_ver00_00_2
+    400028: O_hair_back_kana_ver00_01_0
+    400030: O_hair_back_kana_ver00_01_1
+    400032: O_hair_back_kana_ver00_01_2
+    400034: O_hair_back_kana_ver01_00_0
+    400036: O_hair_back_kana_ver01_00_1
+    400038: O_hair_front_kana_ver00_00_0
+    400040: O_hair_front_kana_ver00_01_0
+    400042: O_hair_kiwa_kana_ver00_00_0
+    400044: P_buraN_d_0
+    400046: P_kmnpb_0
+    400048: P_kutuR_00_d_0
+    400050: P_ribonS_00_d_0
+    400052: P_skirtp_00_d_0
+    400054: P_skirtp_00_d_u_0
+    400056: P_soxH_00_0
+    400058: P_ssbotan_00_d_0
+    400060: P_ssyatu_00_d_0
+    400062: P_ssyatu_00_d_u_0
+    400064: P_wbody_00_00_0
+    400066: P_wbody_00_00_1
+    400068: P_wbody_00_00_2
+    400070: P_wbody_00_00_3
+    400072: P_wbody_00_00_4
+    400074: P_wbody_00_00_5
+    400076: P_wbody_00_00_6
+    2100000: cw_M_eye
+    2100002: cw_M_eyehikari
+    2100004: cw_M_eyekage
+    2100006: cw_M_face
+    2100008: cw_M_ha
+    2100010: mw_hairbase
+    2100012: cw_M_matuge
+    2100014: cw_M_mayuge
+    2100016: cw_M_sita_00
+    2100018: M_hair_back_00_00
+    2100020: M_hair_Lside_00_00
+    2100022: M_hair_Rside_00_00
+    2100024: M_hair_Lside_00_01
+    2100026: M_hair_Rside_00_01
+    2100028: M_hair_back_00_01
+    2100030: M_hair_Rside_01_00
+    2100032: M_hair_Lside_01_00
+    2100034: M_hair_front_00_00
+    2100036: M_hair_front_00_01
+    2100038: M_hair_kiwa_00_00
+    2100040: cw_M_bura_00
+    2100042: cw_M_kmnpb_00
+    2100044: cw_M_kuturo_00
+    2100046: cw_M_ribon_00
+    2100048: cw_M_skirtp_00
+    2100050: cw_M_skirtp_00_u
+    2100052: cw_M_soxh_00
+    2100054: cw_M_ssyatu_00
+    2100056: cw_M_barm_00
+    2100058: cw_M_body_00
+    2100060: cw_M_btikubiL_00
+    2100062: cw_M_btikubiR_00
+    2100064: cw_M_btume_00
+    2100066: cw_M_pussy_00
+    2100068: cw_M_pussy_02
+    2300000: cw_O_eye_L_0
+    2300002: cw_O_eye_R_0
+    2300004: cw_O_eyehikari_0
+    2300006: cw_O_eyekage_0
+    2300008: cw_O_face_0
+    2300010: cw_O_ha_0
+    2300012: cw_O_hairbase_0
+    2300014: cw_O_matuge_0
+    2300016: cw_O_mayuge_0
+    2300018: cw_O_sita_0
+    2300020: O_hair_back_kana_ver00_00_0
+    2300022: O_hair_back_kana_ver00_00_1
+    2300024: O_hair_back_kana_ver00_00_2
+    2300026: O_hair_back_kana_ver00_01_0
+    2300028: O_hair_back_kana_ver00_01_1
+    2300030: O_hair_back_kana_ver00_01_2
+    2300032: O_hair_back_kana_ver01_00_0
+    2300034: O_hair_back_kana_ver01_00_1
+    2300036: O_hair_front_kana_ver00_00_0
+    2300038: O_hair_front_kana_ver00_01_0
+    2300040: O_hair_kiwa_kana_ver00_00_0
+    2300042: P_buraN_d_0
+    2300044: P_kmnpb_0
+    2300046: P_kutuR_00_d_0
+    2300048: P_ribonS_00_d_0
+    2300050: P_skirtp_00_d_0
+    2300052: P_skirtp_00_d_u_0
+    2300054: P_soxH_00_0
+    2300056: P_ssbotan_00_d_0
+    2300058: P_ssyatu_00_d_0
+    2300060: P_ssyatu_00_d_u_0
+    2300062: P_wbody_00_00_0
+    2300064: P_wbody_00_00_1
+    2300066: P_wbody_00_00_2
+    2300068: P_wbody_00_00_3
+    2300070: P_wbody_00_00_4
+    2300072: P_wbody_00_00_5
+    2300074: P_wbody_00_00_6
+    3300000: cw_O_eye_L_0
+    3300002: cw_O_eye_R_0
+    3300004: cw_O_eyehikari_0
+    3300006: cw_O_eyekage_0
+    3300008: cw_O_face_0
+    3300010: cw_O_ha_0
+    3300012: cw_O_hairbase_0
+    3300014: cw_O_matuge_0
+    3300016: cw_O_mayuge_0
+    3300018: cw_O_sita_0
+    3300020: O_hair_back_kana_ver00_00_0
+    3300022: O_hair_back_kana_ver00_00_1
+    3300024: O_hair_back_kana_ver00_00_2
+    3300026: O_hair_back_kana_ver00_01_0
+    3300028: O_hair_back_kana_ver00_01_1
+    3300030: O_hair_back_kana_ver00_01_2
+    3300032: O_hair_back_kana_ver01_00_0
+    3300034: O_hair_back_kana_ver01_00_1
+    3300036: O_hair_front_kana_ver00_00_0
+    3300038: O_hair_front_kana_ver00_01_0
+    3300040: O_hair_kiwa_kana_ver00_00_0
+    3300042: P_buraN_d_0
+    3300044: P_kmnpb_0
+    3300046: P_kutuR_00_d_0
+    3300048: P_ribonS_00_d_0
+    3300050: P_skirtp_00_d_0
+    3300052: P_skirtp_00_d_u_0
+    3300054: P_soxH_00_0
+    3300056: P_ssbotan_00_d_0
+    3300058: P_ssyatu_00_d_0
+    3300060: P_ssyatu_00_d_u_0
+    3300062: P_wbody_00_00_0
+    3300064: P_wbody_00_00_1
+    3300066: P_wbody_00_00_2
+    3300068: P_wbody_00_00_3
+    3300070: P_wbody_00_00_4
+    3300072: P_wbody_00_00_5
+    3300074: P_wbody_00_00_6
+    4300000: cw_O_eye_L_0
+    4300002: cw_O_eye_R_0
+    4300004: cw_O_eyehikari_0
+    4300006: cw_O_eyekage_0
+    4300008: cw_O_face_0
+    4300010: cw_O_ha_0
+    4300012: cw_O_hairbase_0
+    4300014: cw_O_matuge_0
+    4300016: cw_O_mayuge_0
+    4300018: cw_O_sita_0
+    4300020: O_hair_back_kana_ver00_00_0
+    4300022: O_hair_back_kana_ver00_00_1
+    4300024: O_hair_back_kana_ver00_00_2
+    4300026: O_hair_back_kana_ver00_01_0
+    4300028: O_hair_back_kana_ver00_01_1
+    4300030: O_hair_back_kana_ver00_01_2
+    4300032: O_hair_back_kana_ver01_00_0
+    4300034: O_hair_back_kana_ver01_00_1
+    4300036: O_hair_front_kana_ver00_00_0
+    4300038: O_hair_front_kana_ver00_01_0
+    4300040: O_hair_kiwa_kana_ver00_00_0
+    4300042: P_buraN_d_0
+    4300044: P_kmnpb_0
+    4300046: P_kutuR_00_d_0
+    4300048: P_ribonS_00_d_0
+    4300050: P_skirtp_00_d_0
+    4300052: P_skirtp_00_d_u_0
+    4300054: P_soxH_00_0
+    4300056: P_ssbotan_00_d_0
+    4300058: P_ssyatu_00_d_0
+    4300060: P_ssyatu_00_d_u_0
+    4300062: P_wbody_00_00_0
+    4300064: P_wbody_00_00_1
+    4300066: P_wbody_00_00_2
+    4300068: P_wbody_00_00_3
+    4300070: P_wbody_00_00_4
+    4300072: P_wbody_00_00_5
+    4300074: P_wbody_00_00_6
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_hair_Lside_00_00
+    second: {fileID: 2100000, guid: 3ef51d1147c1a5842a6730824a5674ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_hair_Lside_00_01
+    second: {fileID: 2100000, guid: 83e2bf200641864458e5a2f20d55df85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_hair_Lside_01_00
+    second: {fileID: 2100000, guid: f3f45d85cb6d4e2479def82816129658, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_hair_Rside_00_00
+    second: {fileID: 2100000, guid: e9124fbfb12d1424989b52710a1fafc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_hair_Rside_00_01
+    second: {fileID: 2100000, guid: b148de028fe0bc24ab8625b6638a4a21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_hair_Rside_01_00
+    second: {fileID: 2100000, guid: 8d1959e16d6ee254fac677abc349e8c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_hair_back_00_00
+    second: {fileID: 2100000, guid: 63d578e741205684085577e61fcb382c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_hair_back_00_01
+    second: {fileID: 2100000, guid: cb7cbe9c03d6a6845a8fdda269891897, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_hair_front_00_00
+    second: {fileID: 2100000, guid: 9f93cfba0dfa4274c8ae1950e67f0697, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_hair_front_00_01
+    second: {fileID: 2100000, guid: 7e8fdfe7032d3a548985b8565d539431, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_hair_kiwa_00_00
+    second: {fileID: 2100000, guid: 9f689a440b365054f97504cc920ab58b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_barm_00
+    second: {fileID: 2100000, guid: 06847517d0f9f9b4483a70b19623047f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_body_00
+    second: {fileID: 2100000, guid: 5eff94ac59f6ae54392526b0a3dd7dbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_btikubiL_00
+    second: {fileID: 2100000, guid: e6c9c5b6686397244ba7b3936a618364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_btikubiR_00
+    second: {fileID: 2100000, guid: 4792029abb0c87342b81715b9b61f67e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_btume_00
+    second: {fileID: 2100000, guid: 80883d217bfbfd94ca2f15ffe7d2fda7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_bura_00
+    second: {fileID: 2100000, guid: a0f8445ea80d99f44b5f5a0b370b4f36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_eye
+    second: {fileID: 2100000, guid: 23ab9147297004947bf28a62104c77cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_eyehikari
+    second: {fileID: 2100000, guid: 548cba397a3216347b184b29357a4b27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_eyekage
+    second: {fileID: 2100000, guid: 36fb59a90b1738f41a9e454fac1f4324, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_face
+    second: {fileID: 2100000, guid: ae41deeca2a413f45a25dc9e1b0f47fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_ha
+    second: {fileID: 2100000, guid: ddb069c3da47e424c8d145671b0f7694, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_kmnpb_00
+    second: {fileID: 2100000, guid: 7e7689f52a1a15244b3c6f72a0fc9e19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_kuturo_00
+    second: {fileID: 2100000, guid: f12598a67be3b8f49b2efe4bd0d80c31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_matuge
+    second: {fileID: 2100000, guid: c78e64784f83cdd479e33db569fdef32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_mayuge
+    second: {fileID: 2100000, guid: 8780742a66bec1f4b9728c2a81639981, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_pussy_00
+    second: {fileID: 2100000, guid: 0b1ad87474f083543ba7a86c84020438, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_pussy_02
+    second: {fileID: 2100000, guid: 838075b9c1ff36a4381289020e8d601e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_ribon_00
+    second: {fileID: 2100000, guid: 1a21b592f476437419270cd65d9fab7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_sita_00
+    second: {fileID: 2100000, guid: 455da618827445244baca85f9d1809bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_skirtp_00
+    second: {fileID: 2100000, guid: bfa49451b476d4942b909f5e576b3e22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_skirtp_00_u
+    second: {fileID: 2100000, guid: b24c1dd4fb0357842ba889a826e77ec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_soxh_00
+    second: {fileID: 2100000, guid: b0fbbf930d0e72646bd3dbd58077cc35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cw_M_ssyatu_00
+    second: {fileID: 2100000, guid: 3a36a4a5936366248b79c3b2cbcfcedf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mw_hairbase
+    second: {fileID: 2100000, guid: 29ac10bb757fffe439aacb16013d7b0b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -27,13 +27,29 @@ public class CameraShipController : MonoBehaviour
         if (!entering)
         {
             Vector3 desiredPosition = Target.transform.position + offset;
-            Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-            transform.position = smoothedPosition;
+            if(desiredPosition.x > 100 || desiredPosition.x < -100)
+            {
+                if(desiredPosition.x > 200 || desiredPosition.x < -200)
+                {
+                    DestroyPlayerShip();
+                }
+            }
+            else
+            {
+                Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+                transform.position = smoothedPosition;
+            }
         }
         else
         {
             transform.LookAt(targetEntering.transform);
         }
+    }
+
+    private void DestroyPlayerShip()
+    {
+        //Destroy player ship
+        //GameOver.SetActive(true);
     }
 
     public void EnteringEvent()
