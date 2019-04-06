@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -9,11 +10,13 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        btn_backMenu.onClick.AddListener(BackToMenu);
+        btn_backMenu.onClick.AddListener(Reset);
     }
 
-    void BackToMenu()
+    void Reset()
     {
         Debug.Log("Cargo el main menu");
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

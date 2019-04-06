@@ -1,8 +1,13 @@
 fileFormatVersion: 2
-guid: 37c9e9021f8906043995d444177102aa
+guid: 9e152ff956dc3224da20c9110544ebcb
+labels:
+- free
+- plugin
+- particles
+- FX
+- PopcornFX
 folderAsset: yes
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
