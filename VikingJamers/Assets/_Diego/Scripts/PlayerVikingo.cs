@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerVikingo : MonoBehaviour
 {
     public GameObject canvasGameOver;
     public int vidas = 5;
+    public int oleadaNum;
+    public GameObject[] barcos;
+    public GameObject[] spawners;
 
     public int enemigosRestantes;
     private float timer, cooldownTime = 5;
@@ -13,6 +17,14 @@ public class PlayerVikingo : MonoBehaviour
     void Awake()
     {
        canvasGameOver.SetActive(false);
+    }
+
+    void Start()
+    {
+        if(PlayerPrefs.HasKey("level"))
+            ActivarOleada(PlayerPrefs.GetInt("level"));
+        else
+            PlayerPrefs.SetInt("level", 0);
     }
 
     public void Attacked()
@@ -70,6 +82,14 @@ public class PlayerVikingo : MonoBehaviour
             if (timer < cooldownTime + 1)
                 timer += Time.deltaTime;
         }
+
+        if (Input.GetKeyDown("o"))
+        {
+            if (oleadaNum < barcos.Length)
+                ActivarOleada(oleadaNum++);
+            else
+                oleadaNum = 0;
+        }
     }
 
     void RecuperoVida()
@@ -108,6 +128,31 @@ public class PlayerVikingo : MonoBehaviour
         if(enemigosRestantes == 0)
         {
             Debug.Log("Oleada completada");
+            if (oleadaNum < barcos.Length)
+            {
+                PlayerPrefs.SetInt("level", oleadaNum++);
+                SceneManager.LoadSceneAsync(1);
+            }
+            else
+                Debug.Log("YOU WIN"); 
         }
+    }
+
+    void ActivarOleada(int num)
+    {
+        for (int i = 0; i < barcos.Length; i++)
+        {
+            barcos[i].SetActive(false);
+        }
+
+        barcos[num].SetActive(true);
+
+        for (int i = 0; i < spawners.Length; i++)
+        {
+            spawners[i].SetActive(false);
+        }
+
+        spawners[num*2].SetActive(true);
+        spawners[num * 2 + 1].SetActive(true);
     }
 }
