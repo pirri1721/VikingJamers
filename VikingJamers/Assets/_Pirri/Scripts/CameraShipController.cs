@@ -12,6 +12,7 @@ public class CameraShipController : MonoBehaviour
 
     public Vector3 offset;
     public bool entering;
+    private float timeTravelling = 1.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +39,26 @@ public class CameraShipController : MonoBehaviour
     {
         entering = true;
 
-        transform.DOMove(sternPoint.transform.position,0.5f);//stern 
+        //targetEntering.transform.DOMove(targetEntering.transform.position + targetEntering.transform.parent.parent.transform.position - targetEntering.transform.parent.transform.position, 1f).Play();
+
+        Tween enteringTween = transform.DOMove(sternPoint.transform.position,timeTravelling).Play();
+        TweenCallback callback = new TweenCallback(() => AsyncLoad());
+        enteringTween.OnComplete(callback);
+        enteringTween.Play();
+    }
+
+    public void AsyncLoad()
+    {
+        if (Vector3.Distance(transform.position, sternPoint.transform.position) > 3f)
+        {
+            timeTravelling -= timeTravelling / 2;
+            EnteringEvent();
+        }
+        else
+        {
+            Time.timeScale = 1f;
+            transform.SetParent(targetEntering.transform.parent);
+            Debug.Log("ChangeScene");
+        }
     }
 }
