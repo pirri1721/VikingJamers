@@ -11,9 +11,12 @@ public class ShipIA : MonoBehaviour
     private BoatProbes boat;
 
     public GameObject glove;
+    public GameObject board1;
+    public GameObject board2;
 
     private bool firstTime = true;
-    private bool right;
+    private bool right = true;
+    private float rangeToShot = 25f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,11 +24,13 @@ public class ShipIA : MonoBehaviour
         boat = GetComponent<BoatProbes>();
         glove.SetActive(false);
         Time.timeScale = 1f;
+        currentTarget = targetRight;
     }
 
     // Update is called once per frame
     void Update()
     {
+        /*
         if(Vector3.Distance(transform.position,targetRight.transform.position) < Vector3.Distance(transform.position, targetLeft.transform.position))
         {
             right = true;
@@ -35,10 +40,14 @@ public class ShipIA : MonoBehaviour
         {
             right = false;
             currentTarget = targetLeft;
+            
         }
+        */
 
-        if(Vector3.Distance(transform.position,currentTarget.transform.position) > 10f && firstTime)
+        if(Vector3.Distance(transform.position,currentTarget.transform.position) > rangeToShot && firstTime)
         {
+            Debug.DrawLine(transform.position, transform.up);
+            Debug.Log(Vector3.Distance(transform.position, currentTarget.transform.position));
             transform.LookAt(currentTarget.transform, transform.up);
         }
         else
@@ -70,8 +79,10 @@ public class ShipIA : MonoBehaviour
 
         playerShipModel.SetParent(this.transform);
         playerShipModel.transform.localPosition = new Vector3(-25.4f, 5.35f, 2f);
+        playerShipModel.transform.rotation = Quaternion.Euler(-90, 0, 90);
 
         targetRight.transform.parent.gameObject.SetActive(false);
+
 
         if (right)
         {
@@ -90,7 +101,7 @@ public class ShipIA : MonoBehaviour
             }
         }
 
-        Tween cameraShake = Camera.main.transform.DOShakePosition(0.5f, 10, 10, 180);
+        Tween cameraShake = Camera.main.transform.DOShakePosition(1f, 10, 10, 180);
 
         TweenCallback callback = new TweenCallback(() => CameraCallback());
         cameraShake.OnComplete(callback);
@@ -99,6 +110,9 @@ public class ShipIA : MonoBehaviour
 
     public void CameraCallback()
     {
+        board1.transform.DORotateQuaternion(Quaternion.Euler(0, 0, 77f), 1f);
+        board2.transform.DORotateQuaternion(Quaternion.Euler(0, 0, 77f), 1f);
+
         Camera.main.GetComponent<CameraShipController>().EnteringEvent();
     }
 }
