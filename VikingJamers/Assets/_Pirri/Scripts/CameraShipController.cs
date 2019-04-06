@@ -5,6 +5,9 @@ using UnityEngine;
 public class CameraShipController : MonoBehaviour
 {
     public GameObject Target;
+    public float smoothSpeed = 0.125f;
+
+    public Vector3 offset;
 
     // Start is called before the first frame update
     void Start()
@@ -13,8 +16,10 @@ public class CameraShipController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        transform.position =  Vector3.Lerp(transform.position, Target.transform.position + Target.transform.up, Time.deltaTime);
+        Vector3 desiredPosition = Target.transform.position + offset;
+        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+        transform.position = smoothedPosition;
     }
 }
