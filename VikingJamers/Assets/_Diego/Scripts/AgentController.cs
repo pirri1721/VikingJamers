@@ -8,8 +8,11 @@ public class AgentController : MonoBehaviour
     public Transform target;
 
     private NavMeshAgent agent;
+    float timer = 0.0f;
+    float cooldownTime = 2.0f;
 
-    void Start()
+
+    void Awake()
     {
        agent = this.GetComponent<NavMeshAgent>();
        agent.SetDestination(target.position);
@@ -21,9 +24,20 @@ public class AgentController : MonoBehaviour
 
         if (agent.remainingDistance > agent.stoppingDistance)
             agent.gameObject.GetComponent<Animator>().SetFloat("Speed", 1.0f);
-        else
+        else {
             agent.gameObject.GetComponent<Animator>().SetFloat("Speed", 0.0f);
+            if (timer > cooldownTime)
+            {
+                FindObjectOfType<PlayerVikingo>().Attacked();
+                timer = 0;
+            }
+        }
+
+        if (timer < cooldownTime + 1)
+            timer += Time.deltaTime;
+
     }
+
 
 
 }
