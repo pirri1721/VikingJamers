@@ -12,12 +12,12 @@ public class OutBoatGM : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        enemyShip.SetActive(false);
-
         for(int i=0; i < shipSkin.Length; i++)
         {
             shipSkin[i].SetActive(false);
         }
+
+        enemyShip.SetActive(false);
 
         for (int i=0; i< islands.Length; i++)
         {

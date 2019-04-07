@@ -17,6 +17,7 @@ public class ShipIA : MonoBehaviour
     private bool firstTime = true;
     private bool right = true;
     private float rangeToShot = 25f;
+    private GameObject sail;
 
     // Start is called before the first frame update
     void Start()
@@ -110,6 +111,22 @@ public class ShipIA : MonoBehaviour
 
     public void CameraCallback()
     {
+        for(int i=0; i < transform.childCount; i++)
+        {
+            if (transform.GetChild(i).gameObject.activeInHierarchy)
+            {
+                for (int j = 0; j < transform.GetChild(i).transform.childCount; j++)
+                {
+                    if(transform.GetChild(i).transform.GetChild(j).gameObject.name == "Plane001")
+                    {
+                        sail = transform.GetChild(i).transform.GetChild(j).gameObject;
+                    }
+                }
+            }
+        }
+
+        sail.transform.DORotate(Vector3.zero, 1f).Play();
+
         board1.transform.DORotateQuaternion(Quaternion.Euler(0, 0, -103f), 1f).Play();
         //board1.transform.DOLocalRotate(new Vector3(0, 0, -103f), 1f).Play();
         board2.transform.DORotateQuaternion(Quaternion.Euler(0, 0, -103f), 1f).Play();
