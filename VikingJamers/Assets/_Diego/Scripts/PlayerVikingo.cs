@@ -135,7 +135,7 @@ public class PlayerVikingo : MonoBehaviour
     {
         enemigosRestantes += n;
 
-        if(enemigosRestantes == 0)
+        if(enemigosRestantes == 0 && oleadaNum < barcos.Length-1)
         {
             Debug.Log("Oleada completada");
             canvasOleada.SetActive(true);

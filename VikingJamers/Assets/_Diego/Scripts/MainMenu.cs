@@ -11,13 +11,13 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
+        PlayerPrefs.SetInt("level", 0);
         btn_play.onClick.AddListener(() => GoToLevel(1));
         btn_exit.onClick.AddListener(() => Exit());
     }
 
     void GoToLevel(int n)
     {
-        PlayerPrefs.SetInt("level", 0);
         SceneManager.LoadScene(n);
     }
 
