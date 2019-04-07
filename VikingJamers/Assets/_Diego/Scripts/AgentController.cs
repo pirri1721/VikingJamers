@@ -7,6 +7,8 @@ using System.Linq;
 public class AgentController : MonoBehaviour
 {
     public Transform target;
+    public AudioSource audioSource;
+    public AudioClip[] sounds;
 
     private NavMeshAgent agent;
     float timer = 0.0f;
@@ -31,10 +33,16 @@ public class AgentController : MonoBehaviour
             if (timer > cooldownTime)
             {
                 if (agent.gameObject.GetComponent<Animator>().parameters.Any(x => x.name == "attack1"))
+                {
                     agent.gameObject.GetComponent<Animator>().SetTrigger("attack1");
+                    audioSource.PlayOneShot(sounds[0]);
+                }
 
-                if(agent.gameObject.tag != "EnemyDeath")
+                if (agent.gameObject.tag != "EnemyDeath")
+                {
                     FindObjectOfType<PlayerVikingo>().Attacked();
+                    audioSource.PlayOneShot(sounds[1]);
+                }
 
                 timer = 0;
             }
