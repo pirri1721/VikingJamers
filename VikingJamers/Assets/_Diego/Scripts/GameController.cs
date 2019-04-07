@@ -11,7 +11,8 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        btn_backMenu.onClick.AddListener(Reset);
+        btn_reset.onClick.AddListener(Reset);
+        btn_backMenu.onClick.AddListener(BackMenu);
     }
 
     void Reset()

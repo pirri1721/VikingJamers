@@ -147,7 +147,7 @@ public class PlayerVikingo : MonoBehaviour
     {
         yield return new WaitForSeconds(7);
 
-        if (oleadaNum < barcos.Length)
+        if (oleadaNum < barcos.Length-1)
         {
             oleadaNum++;
             Debug.Log(oleadaNum);
