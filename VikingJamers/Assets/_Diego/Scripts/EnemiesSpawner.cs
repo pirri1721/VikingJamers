@@ -5,20 +5,19 @@ using UnityEngine;
 
 public class EnemiesSpawner : MonoBehaviour
 {
-    public GameObject[] prefabEnemies;
-    private GameObject prefabEnemy;
+    public GameObject prefabEnemy;
     public int numEnemies;
 
     private int enemiesOut;
     private bool stop;
     float timer = 0.0f;
-    float cooldownTime = 8f;
+    float cooldownTime = 6f;
 
     void Start()
     {
         FindObjectOfType<PlayerVikingo>().UpdateEnemigos(numEnemies);
 
-        prefabEnemy = prefabEnemies[PlayerPrefs.GetInt("level")];
+        //prefabEnemy = prefabEnemies[PlayerPrefs.GetInt("level")];
     }
 
     void Update()

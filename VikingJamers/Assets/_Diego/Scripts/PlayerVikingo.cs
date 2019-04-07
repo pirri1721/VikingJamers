@@ -140,7 +140,9 @@ public class PlayerVikingo : MonoBehaviour
 
         if (oleadaNum < barcos.Length)
         {
-            PlayerPrefs.SetInt("level", oleadaNum++);
+            oleadaNum++;
+            Debug.Log(oleadaNum);
+            PlayerPrefs.SetInt("level", oleadaNum);
             SceneManager.LoadSceneAsync(1);
         }
         else
