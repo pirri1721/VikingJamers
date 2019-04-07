@@ -28,7 +28,7 @@ public class AgentController : MonoBehaviour
     {
         agent.SetDestination(target.position);
 
-        Debug.Log(agent.remainingDistance);
+        //Debug.Log(agent.remainingDistance);
 
         if (agent.remainingDistance > agent.stoppingDistance)
             anim.SetFloat("Speed", 1.0f);
