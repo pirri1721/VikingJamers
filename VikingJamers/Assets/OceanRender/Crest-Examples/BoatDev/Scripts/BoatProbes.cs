@@ -67,7 +67,7 @@ public class BoatProbes : MonoBehaviour, IBoat
 
     private void Start()
     {
-        Debug.Log(PlayerPrefs.GetInt("level"));
+        //Debug.Log(PlayerPrefs.GetInt("level"));
 
         RB = GetComponent<Rigidbody>();
         RB.centerOfMass = _centerOfMass;
