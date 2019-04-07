@@ -28,7 +28,8 @@ public class CameraShipController : MonoBehaviour
         if (!entering)
         {
             Vector3 desiredPosition = Target.transform.position + offset;
-            if(desiredPosition.x > 150 || desiredPosition.x < -150)
+
+            /*if (desiredPosition.x > 150 || desiredPosition.x < -150)
             {
                 desiredPosition = new Vector3(transform.position.x, Target.transform.position.y, Target.transform.position.z) + offset;
 
@@ -41,7 +42,9 @@ public class CameraShipController : MonoBehaviour
             {
                 Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
                 transform.position = smoothedPosition;
-            }
+            }*/
+            Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+            transform.position = smoothedPosition;
         }
         else
         {
