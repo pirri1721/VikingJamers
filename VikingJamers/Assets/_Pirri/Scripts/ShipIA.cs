@@ -19,6 +19,9 @@ public class ShipIA : MonoBehaviour
     private float rangeToShot = 25f;
     private GameObject sail;
 
+    public AudioSource wood;
+    public AudioSource canon;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -58,8 +61,11 @@ public class ShipIA : MonoBehaviour
                 Debug.Log("Assault");
                 glove.SetActive(true);
 
-                Tween timeTween = DOTween.To(() => Time.timeScale, x => Time.timeScale = x, 0.5f, 0.2f);
+                Tween timeTween = DOTween.To(() => Time.timeScale, x => Time.timeScale = x, 0.25f, 0.2f);
                 timeTween.Play();
+
+                //AudioExplosion
+                canon.Play();
 
                 //Sequence sequence = DOTween.Sequence();
                 Tween gloveT = glove.transform.DOMove(currentTarget.transform.parent.transform.position, 0.5f);
@@ -74,6 +80,9 @@ public class ShipIA : MonoBehaviour
 
     public void ChangeParents()
     {
+        //AUDIO wood
+        wood.Play();
+
         glove.transform.SetParent(targetRight.transform.parent);
 
         Transform playerShipModel = targetRight.transform.parent.GetChild(0);
