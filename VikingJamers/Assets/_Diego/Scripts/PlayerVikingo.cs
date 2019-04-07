@@ -10,6 +10,7 @@ public class PlayerVikingo : MonoBehaviour
     public int oleadaNum;
     public GameObject[] barcos;
     public GameObject[] spawners;
+    public GameObject canvasOleada;
 
     public int enemigosRestantes;
     private float timer, cooldownTime = 5;
@@ -128,14 +129,22 @@ public class PlayerVikingo : MonoBehaviour
         if(enemigosRestantes == 0)
         {
             Debug.Log("Oleada completada");
-            if (oleadaNum < barcos.Length)
-            {
-                PlayerPrefs.SetInt("level", oleadaNum++);
-                SceneManager.LoadSceneAsync(1);
-            }
-            else
-                Debug.Log("YOU WIN"); 
+            canvasOleada.SetActive(true);
+            StartCoroutine(WaitUnPoco());
         }
+    }
+
+    IEnumerator WaitUnPoco()
+    {
+        yield return new WaitForSeconds(7);
+
+        if (oleadaNum < barcos.Length)
+        {
+            PlayerPrefs.SetInt("level", oleadaNum++);
+            SceneManager.LoadSceneAsync(1);
+        }
+        else
+            Debug.Log("YOU WIN");
     }
 
     void ActivarOleada(int num)
