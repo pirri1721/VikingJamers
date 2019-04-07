@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerVikingo : MonoBehaviour
 {
     public GameObject canvasGameOver;
+    public GameObject canvasWin;
     public int vidas = 5;
     public int oleadaNum;
     public GameObject[] barcos;
@@ -18,14 +19,22 @@ public class PlayerVikingo : MonoBehaviour
     void Awake()
     {
        canvasGameOver.SetActive(false);
+        canvasWin.SetActive(false);
     }
 
     void Start()
     {
-        if(PlayerPrefs.HasKey("level"))
-            ActivarOleada(PlayerPrefs.GetInt("level"));
+        if (PlayerPrefs.HasKey("level"))
+        {
+            oleadaNum = PlayerPrefs.GetInt("level");
+            ActivarOleada(oleadaNum);
+        }
+
         else
+        {
+            oleadaNum = 0;
             PlayerPrefs.SetInt("level", 0);
+        }
     }
 
     public void Attacked()
@@ -146,7 +155,11 @@ public class PlayerVikingo : MonoBehaviour
             SceneManager.LoadSceneAsync(1);
         }
         else
+        {
             Debug.Log("YOU WIN");
+            canvasWin.SetActive(true);
+        }
+            
     }
 
     void ActivarOleada(int num)
