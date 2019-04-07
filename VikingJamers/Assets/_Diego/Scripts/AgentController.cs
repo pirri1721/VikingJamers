@@ -9,6 +9,7 @@ public class AgentController : MonoBehaviour
     public Transform target;
     public AudioSource audioSource;
     public AudioClip[] sounds;
+    Animator anim;
 
     private NavMeshAgent agent;
     float timer = 0.0f;
@@ -19,6 +20,7 @@ public class AgentController : MonoBehaviour
     {
        target = GameObject.FindGameObjectWithTag("Player").transform;
        agent = this.GetComponent<NavMeshAgent>();
+        anim = GetComponent<Animator>();
       // agent.SetDestination(target.position);
     }
 
@@ -26,15 +28,18 @@ public class AgentController : MonoBehaviour
     {
         agent.SetDestination(target.position);
 
+        Debug.Log(agent.remainingDistance);
+
         if (agent.remainingDistance > agent.stoppingDistance)
-            agent.gameObject.GetComponent<Animator>().SetFloat("Speed", 1.0f);
-        else {
-            agent.gameObject.GetComponent<Animator>().SetFloat("Speed", 0.0f);
+            anim.SetFloat("Speed", 1.0f);
+        else
+        {
+            anim.SetFloat("Speed", 0.0f);
             if (timer > cooldownTime)
             {
-                if (agent.gameObject.GetComponent<Animator>().parameters.Any(x => x.name == "attack1"))
+                if (anim.parameters.Any(x => x.name == "attack1"))
                 {
-                    agent.gameObject.GetComponent<Animator>().SetTrigger("attack1");
+                    anim.SetTrigger("attack1");
                     audioSource.PlayOneShot(sounds[0]);
                 }
 

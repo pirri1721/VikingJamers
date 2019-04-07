@@ -63,6 +63,8 @@ public class BoatProbes : MonoBehaviour, IBoat
     Rect _localSamplingAABB;
     float _totalWeight;
 
+    public GameObject canvasGameOver;
+
     private void Start()
     {
         RB = GetComponent<Rigidbody>();
@@ -263,6 +265,9 @@ public class BoatProbes : MonoBehaviour, IBoat
         if(collision.gameObject.name.Substring(0,6) == "Island")
         {
             Debug.Log("Ship hit island");
+            _playerControlled = false;
+            if(canvasGameOver != null)
+                canvasGameOver.SetActive(true);
         }
     }
 }

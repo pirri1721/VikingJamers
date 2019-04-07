@@ -27,9 +27,11 @@ public class CameraShipController : MonoBehaviour
         if (!entering)
         {
             Vector3 desiredPosition = Target.transform.position + offset;
-            if(desiredPosition.x > 100 || desiredPosition.x < -100)
+            if(desiredPosition.x > 150 || desiredPosition.x < -150)
             {
-                if(desiredPosition.x > 200 || desiredPosition.x < -200)
+                desiredPosition = new Vector3(transform.position.x, Target.transform.position.y, Target.transform.position.z) + offset;
+
+                if (desiredPosition.x > 200 || desiredPosition.x < -200)
                 {
                     DestroyPlayerShip();
                 }
@@ -48,6 +50,7 @@ public class CameraShipController : MonoBehaviour
 
     private void DestroyPlayerShip()
     {
+        //TODO
         //Destroy player ship
         //GameOver.SetActive(true);
     }

@@ -21,7 +21,7 @@ public class OutBoatGM : MonoBehaviour
 
         for (int i=0; i< islands.Length; i++)
         {
-            islands[i].transform.position = new Vector3(Random.Range(-100, 100), islands[i].transform.position.y, islands[i].transform.position.z);
+            islands[i].transform.position = new Vector3(Random.Range(-150, 150), islands[i].transform.position.y, islands[i].transform.position.z);
         }
     }
 
@@ -31,7 +31,14 @@ public class OutBoatGM : MonoBehaviour
         {
             Debug.Log("Launch Event");
             enemyShip.SetActive(true);
-            shipSkin[PlayerPrefs.GetInt("level")].SetActive(true);
+
+            Debug.Log(PlayerPrefs.GetInt("level"));
+            int shipIndex = PlayerPrefs.GetInt("level");
+            Debug.Log(shipIndex);
+            if (shipIndex >= 0)
+            {
+                shipSkin[shipIndex].SetActive(true);
+            }
         }
     }
 }

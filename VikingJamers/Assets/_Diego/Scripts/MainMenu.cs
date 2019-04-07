@@ -17,6 +17,7 @@ public class MainMenu : MonoBehaviour
 
     void GoToLevel(int n)
     {
+        PlayerPrefs.SetInt("level", 0);
         SceneManager.LoadScene(n);
     }
 
