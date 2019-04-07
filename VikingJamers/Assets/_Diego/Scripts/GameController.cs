@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public Button btn_backMenu;
+    public Button btn_reset;
 
     void Start()
     {
@@ -15,8 +16,13 @@ public class GameController : MonoBehaviour
 
     void Reset()
     {
-        Debug.Log("Cargo el main menu");
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    void BackMenu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0);
     }
 }
